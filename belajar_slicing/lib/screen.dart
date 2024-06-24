@@ -9,8 +9,8 @@ class Screen extends StatelessWidget {
     final screenWidth = MediaQuery.of(context).size.width;
     return Scaffold(
       floatingActionButton: SizedBox(
-        width: 64,
-        height: 64,
+        width: 50,
+        height: 50,
         child: FloatingActionButton(
           elevation: 0,
           onPressed: () {},
